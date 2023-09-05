@@ -76,7 +76,7 @@ services:
       org.label-schema.group: "monitoring"
 
   cadvisor:
-    image: gcr.io/google-containers/cadvisor:latest
+    image: gcr.io/cadvisor/cadvisor
     container_name: cadvisor
     volumes:
       - /:/rootfs:ro
